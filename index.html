@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container1">
+        <div class="containerForm">
+          <div class="formulario">
+            <h1 class="titulo">Realize seu cadastro:</h1>
+            <form action="./views/login.html">
+              <label for="nome">
+                <img class="imgs" src="./img/nome1.png" alt="" />
+                Digite aqui seu <span class="textos">Nome</span>:
+              </label>
+              <input
+                class="caixas"
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Nicolas Almeida Valente"
+              />
+              <br />
+              <br />
+              <label for="data">
+                <img class="imgs" src="./img/cal.png" alt="" />
+                Selecione aqui sua
+                <span class="textos">Data de Nascimento </span>:
+              </label>
+              <input class="caixas" type="date" id="data" name="data" />
+              <br />
+              <br />
+              <label for="endereco">
+                <img class="imgs" src="./img/end1.png" alt="" />
+                Digite aqui seu <span class="textos">Endereço</span>:
+              </label>
+              <input
+                class="caixas"
+                type="text"
+                id="endereco"
+                name="endereco"
+                placeholder="Rua Jaburu, 145 - Monte Castelo"
+              />
+              <br />
+              <br />
+              <label for="cidade">
+                <img class="imgs" src="./img/cid.png" alt="" />
+                Digite aqui a <span class="textos">Cidade</span> que você mora:
+              </label>
+              <input
+                class="caixas"
+                type="text"
+                id="cidade"
+                name="cidade"
+                placeholder="Campo Grande"
+              />
+              <br />
+              <br />
+              <label for="cep">
+                <img class="imgs" src="./img/cep.png" alt="" />
+                Digite aqui seu <span class="textos">CEP</span>:
+              </label>
+              <input class="caixas" type="text" id="cep" name="cep" />
+              <br />
+              <br />
+              <label for="estado">
+                <img class="imgs" src="./img/est1.png" alt="" />
+                Escolha seu <span class="textos">Estado</span>:
+              </label>
+              <select class="caixas" name="estado" id="estado">
+                <option value="">Mato Grosso do Sul</option>
+                <option value="">Mato Grosso</option>
+                <option value="">Distrito Federal</option>
+                <option value="">São Paulo</option>
+                <option value="">Rio de Janeiro</option>
+                <option value="">Outro...</option>
+              </select>
+              <br />
+              <br />
+              <label for="email">
+                <img class="imgs" src="./img/email.png" alt="" />
+                Digite aqui seu <span class="textos">Email</span>:
+              </label>
+              <input
+                class="caixas"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="nicolas.valente@estudante.ifms.edu.br"
+              />
+              <br />
+              <br />
+              <img class="imgs" src="./img/gen1.png" alt="" />
+              <label> Qual é seu <span class="textos">Sexo</span>? </label>
+              <br />
+              <br />
+              <input type="radio" id="em" name="radioGroup" value="EM" />
+              <label for="em">Masculino</label>
+              <br />
+              <br />
+              <input type="radio" id="g" name="radioGroup" value="G" />
+              <label for="p">Feminino</label>
+              <br />
+              <br />
+              <input type="radio" id="pg" name="radioGroup" value="PG" />
+              <label for="pg">Outro</label>
+              <br />
+              <br />
+              <label for="senha">
+                <img class="imgs" src="./img/senha.png" alt="" />
+                Insira uma <span class="textos">Senha</span>:
+              </label>
+              <input class="caixas" type="password" name="senha" id="senha" />
+              <br />
+              <br />
+              <input type="submit" value="Cadastrar" class="submitBotao" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

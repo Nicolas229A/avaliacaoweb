@@ -1,0 +1,71 @@
+body {
+  background-color: #000000;
+}
+
+.navbar {
+  background-color: aqua;
+}
+
+.footer {
+  background-color: blueviolet;
+}
+
+.container1 {
+  display: grid !important;
+  place-items: center !important;
+}
+.containerForm {
+  display: flex;
+  border: 10px solid #db606d;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 1rem;
+  background-color: white;
+  width: 600px;
+  height: 800px;
+}
+
+.imgs {
+  width: 17px;
+  height: 17px;
+}
+
+.caixas:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.titulo {
+  color: #db606d;
+  font-weight: bold;
+}
+.formulario {
+  color: #000000;
+}
+
+input[type="radio"] {
+  accent-color: #db606d;
+}
+
+input[type="checkbox"] {
+  accent-color: #db606d;
+}
+
+.textos {
+  color: #db606d;
+  font-weight: bold;
+}
+
+.submitBotao {
+  color: white;
+  font-weight: bold;
+  background-color: #db606d;
+  border: #db606d;
+}
+
+.submitBotao:hover {
+  color: #ffffff;
+  background-color: #000000;
+  font-weight: bolder;
+  border: #000000;
+}
